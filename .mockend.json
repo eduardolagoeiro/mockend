@@ -5,6 +5,7 @@
     "products": "Product[]"
   },
   "Product": {
-    "name": "string"
+    "name": "string",
+    "provider": "Product-provider"
   }
 }
