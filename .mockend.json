@@ -1,11 +1,13 @@
 {
-  "Product-provider": {
-    "id": "number",
-    "name": "string",
-    "products": "Product[]"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
   },
-  "Product": {
-    "name": "string",
-    "provider": "Product-provider"
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
