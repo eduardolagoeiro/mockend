@@ -1,10 +1,10 @@
 {
-  "product-provider": {
+  "Product-provider": {
     "id": "number",
     "name": "string",
     "products": "Product[]"
   },
-  "product": {
+  "Product": {
     "name": "string"
   }
 }
